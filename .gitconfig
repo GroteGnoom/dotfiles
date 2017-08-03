@@ -1,0 +1,7 @@
+[user]
+	email = 8137208+GroteGnoom@users.noreply.github.com
+	name = GroteGnoom
+[push]
+	default = simple
+[core]
+	editor = emacs
