@@ -16,3 +16,5 @@
 
 ;;(setq-default show-trailing-whitespace t)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+(setq mouse-wheel-progressive-speed nil)
+(global-set-key (kbd "C-x C-a") (lambda () (interactive) (save-buffer) (compile "./compile")))
