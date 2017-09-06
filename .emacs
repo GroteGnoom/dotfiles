@@ -18,3 +18,9 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (setq mouse-wheel-progressive-speed nil)
 (global-set-key (kbd "C-x C-a") (lambda () (interactive) (save-buffer) (compile "./compile")))
+(delete-selection-mode 1)
+(setq column-number-mode t)
+
+(add-to-list 'load-path "~/Documents/repos/rust-mode/")
+(autoload 'rust-mode "rust-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
