@@ -126,3 +126,5 @@ source /usr/local/bin/virtualenvwrapper.sh
 emacs () {
   /usr/bin/emacs "$@" &
 }
+
+export JAVA_HOME=/usr/lib/jvm/java-9-openjdk-amd64/
