@@ -39,3 +39,4 @@
     ;; For important compatibility libraries like cl-lib
     (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
+(put 'dired-find-alternate-file 'disabled nil)
