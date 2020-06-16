@@ -128,3 +128,15 @@ emacs () {
 }
 
 export JAVA_HOME=/usr/lib/jvm/java-9-openjdk-amd64/
+
+export QSYS_ROOTDIR="/home/daniel/tweede/fpgalite/17.0/quartus/sopc_builder/bin"
+
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+if [ -d "$HOME/bin" ] ; then
+  export PATH="$PATH:$HOME/bin"
+fi
+
+if [ -d "$HOME/kotlin/bin" ] ; then
+  export PATH="$PATH:$HOME/kotlin/bin"
+fi
