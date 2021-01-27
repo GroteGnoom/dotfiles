@@ -4,6 +4,8 @@
 [push]
 	default = simple
 [core]
-	editor = emacs
+	editor = vim
 [color]
 	ui = auto
+[diff]
+	ignoreSubmodules = dirty
